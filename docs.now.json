@@ -1,0 +1,11 @@
+{
+    "name": "suggestions-docs",
+    "type": "static",
+    "static": {
+        "public": ".vuepress/dist"
+    },
+    "alias": "suggestions-docs",
+    "files": [
+        ".vuepress/dist"
+    ]
+}
