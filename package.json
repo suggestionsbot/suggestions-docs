@@ -7,9 +7,12 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs;"
   },
-  "repository": "git@bitbucket.org:acollierr17/suggestions-docs.git",
+  "repository": "git@gitlab.com:acollierr17/suggestions-docs.git",
   "author": "acollierr17 <gamemaniac101@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
 }
