@@ -2,15 +2,15 @@
 home: true
 heroImage: /images/suggestions-icon.png
 heroText: Suggestions Guide
-tagline: The only suggestions bot you'll ever need. Simple usage and management of suggestions for public and staff use.
+tagline: The official guide for the Suggestions bot. The most powerful suggestions feature set you'll find on Discord.
 actionText: Get Started →
 actionLink: /guide/getting-started.html
 features:
 - title: Ease Of Use
   details: Creating suggestions and easily manage them through bot commands. Designed for the most simple usage.
 - title: Productive Management
-  details: Allow certain roles to manage suggestions such as approving/rejecting and adding notes giving server members full information.
+  details: Allow certain roles to manage suggestions such as approving/rejecting and adding notes giving server members full information thats helps them to vote.
 - title: Extensive Configuration
-  details: Configure a range of features from the channel suggestions will be submitted to down to the emojis that will be added.
-footer: © 2018 Nerd Cave Development 
+  details: Configure a range of features from the channel suggestions will be submitted down to the emojis that will be added.
+footer: © 2019 Nerd Cave Development 
 ---

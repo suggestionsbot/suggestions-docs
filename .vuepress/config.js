@@ -5,7 +5,6 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
-            // { text: 'Website', link: '#' },
             { text: 'Discord', link: 'https://discord.gg/g7wr8xb' },
             { text: 'Patreon', link: 'https://patreon.com/acollierr17' }
         ],

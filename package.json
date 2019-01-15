@@ -4,8 +4,7 @@
   "description": "The official documentation for the Suggestions bot. The only suggestions bot you'll ever need. Simple usage and management of suggestions for public and staff use.",
   "main": "app.js",
   "scripts": {
-    "docs:build": "vuepress build docs",
-    "docs:deploy": "npm run docs:build && now --local-config docs.now.json && now alias --local-config docs.now.json"
+    "docs:build": "vuepress build docs"
   },
   "repository": "git@bitbucket.org:acollierr17/suggestions-docs.git",
   "author": "acollierr17 <gamemaniac101@gmail.com>",
