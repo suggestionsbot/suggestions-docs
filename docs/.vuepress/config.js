@@ -4,12 +4,12 @@ module.exports = {
     dest: "public",
     base: "/docs/",
     themeConfig: {
-        // nav: [
-        //     { text: 'Home', link: '/' },
-        //     { text: 'Guide', link: '/guide/' },
-        //     { text: 'Discord', link: 'https://discord.gg/g7wr8xb' },
-        //     { text: 'Patreon', link: 'https://patreon.com/acollierr17' }
-        // ],
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Guide', link: '/guide/' },
+            { text: 'Discord', link: 'https://discord.gg/g7wr8xb' },
+            { text: 'Patreon', link: 'https://patreon.com/acollierr17' }
+        ],
         sidebar: {
             '/guide/': [
                 '',
