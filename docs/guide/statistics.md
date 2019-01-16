@@ -12,10 +12,10 @@ meta:
 # Statistics
 
 ::: tip
-Logging of approved/rejected status of suggestions began on September 29, 2018. Any data before that *specifically* regarding the status of a suggestion is not logged. However, suggestion data in general, in the new database, has been logged. This explains the gap between approved/rejected suggestions and the total number of suggestions in your guild if you have had this bot in your guild for some time.
+Logging of approved/rejected status of suggestions began on September 29, 2018. Any data before that *specifically* regarding the status of a suggestion is not logged. However, suggestion data in general, in the new database, has been logged. This explains the gap between approved/rejected suggestions and the total number of suggestions in your guild if you have had this bot in your guild prior to the date above.
 :::
 
-There are two different commands you can use to get the statistics of suggestions in your guild:
+There are few different commands you can use to get the statistics of suggestions in your guild:
 
 * `suggestions`
 * `sid`
