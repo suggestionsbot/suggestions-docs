@@ -10,6 +10,12 @@ module.exports = {
                 type: 'image/x-icon',
                 href: './favicon.ico'
             }
+        ],
+        [
+            'meta', {
+                name: 'theme-color',
+                content: '#dd9323'
+            }
         ]
     ],
     themeConfig: {

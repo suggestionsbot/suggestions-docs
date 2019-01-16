@@ -15,7 +15,5 @@ features:
 meta:
     - name: description
       content: The official guide for the Suggestions bot. The most powerful suggestions feature set you'll find on Discord.
-    - name: theme-color
-      content: '#dd9323'
 footer: © 2019 Nerd Cave Development 
 ---
