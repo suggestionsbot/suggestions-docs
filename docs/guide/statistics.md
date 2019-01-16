@@ -5,8 +5,6 @@ description: View basic statistics in the Discord with various commands.
 meta:
     - name: description
       content: View basic statistics in the Discord with various commands.
-    - name: theme-color
-      content: '#dd9323'
 ---
 
 # Statistics

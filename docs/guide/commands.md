@@ -5,8 +5,6 @@ description: View all the available commands and detailed information of the Sug
 meta:
     - name: description
       content: View all the available commands and detailed information of the Suggestions bot.
-    - name: theme-color
-      content: '#dd9323'
 ---
 
 # Commands
