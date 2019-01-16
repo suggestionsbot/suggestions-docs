@@ -1,4 +1,4 @@
-# docs.suggestionsbot.com
+# suggestions-docs
 
 The documentation website for the Suggestions bot.
 
