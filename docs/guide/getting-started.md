@@ -24,4 +24,4 @@ Also by default, the prefix is`,`and the bot searches for`#suggestions`as the de
 3. Add roles so users in that role can approve/reject user suggestions. You may do that with`role add <role>`where the role can either by tagged or typed out if it exists in the guild
 4. Choose an emoji set for your guild. You can view the available sets via the `setvotes` command and choose which one you want in your guild with `setvotes <#>` where `#`indicates which emoji option.
 
-Once you completed those steps, you should be set to go! Continue on to the [Managing Suggestions](guide/managing-suggestions.md) page with information on approving/rejecting user suggestions.
+Once you completed those steps, you should be set to go! Continue on to the [Managing Suggestions](managing-suggestions.md) page with information on approving/rejecting user suggestions.
