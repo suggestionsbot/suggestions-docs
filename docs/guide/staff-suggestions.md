@@ -1,3 +1,14 @@
+---
+title: Staff Suggestions
+lang: en-US
+description: Allow staff members to internally vote on staff suggestions without interference or the need for a second bot.
+meta:
+    - name: description
+      content: Staff Suggestions
+    - name: theme-color
+      content: 0xdd9323
+---
+
 # Staff Suggestions
 
 ::: warning
@@ -8,7 +19,7 @@ This feature does not mirror the regular user suggestions. This means there is n
 
 This feature is something that makes the bot unique, versatile, and prevents server owners from having to get a second bot to deal with matters like this. And getting a second bot for the same feature used in a different way is not always practical. That's why this bot has the feature for staff members to submit suggestions to be voted on and dealt with internally.
 
-Remember the suggestions role you created back at the [Getting Started](getting-started.md) section? Well it comes to use here as well! This is because users with that role can not only manage suggestions, but they can submit suggestions internally! The setup mirrors the initial suggestions channel setup process:
+Remember the suggestions role you created back at the [Getting Started](README.md) section? Well it comes to use here as well! This is because users with that role can not only manage suggestions, but they can submit suggestions internally! The setup mirrors the initial suggestions channel setup process:
 
 1. Create and set a staff suggestions channel by doing`setstaffchannel <channel>`\(you can tag the channel; you must have the`MANAGE_GUILD`permission to do this action\)
    1. Add the bot to that channel and exclusively give it the`SEND MESSAGES`and`ADD REACTIONS`permissions \(add anymore depending on what permissions you gave the bot globally\).
