@@ -7,7 +7,7 @@ actionText: Get Started →
 actionLink: /guide/
 features:
 - title: Ease Of Use
-  details: Creating suggestions and easily manage them through bot commands. Designed for the most simple usage.
+  details: Create suggestions and easily manage them through bot commands. Designed for the most simple usage.
 - title: Productive Management
   details: Allow certain roles to manage suggestions such as approving/rejecting and adding notes giving server members full information thats helps them to vote.
 - title: Extensive Configuration
