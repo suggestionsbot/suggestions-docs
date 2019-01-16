@@ -144,6 +144,8 @@ Aliases: `pong`
 ```
 This command sends a message of the current guild prefix. If no prefix is set, it displays the default prefix.
 
+*Forgot the prefix? Simply mention the bot `@Suggestions#2602` and it'll tell you the current prefix!*
+
 ### Reject Command
 ```
 ,reject <sID> [response]
