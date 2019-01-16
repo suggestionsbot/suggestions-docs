@@ -4,9 +4,9 @@ lang: en-US
 description: Use the easy but powerful suggesitons management to stay organized in your Discord.
 meta:
     - name: description
-      content: Managing Suggestions
+      content: Use the easy but powerful suggesitons management to stay organized in your Discord.
     - name: theme-color
-      content: 0xdd9323
+      content: #dd9323
 ---
 
 # Managing Suggestions

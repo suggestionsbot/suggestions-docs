@@ -14,8 +14,8 @@ features:
   details: Configure a range of features from the channel suggestions will be submitted down to the emojis that will be added.
 meta:
     - name: description
-      content: Suggestions Documentation
+      content: The official guide for the Suggestions bot. The most powerful suggestions feature set you'll find on Discord.
     - name: theme-color
-      content: 0xdd9323
+      content: #dd9323
 footer: © 2019 Nerd Cave Development 
 ---

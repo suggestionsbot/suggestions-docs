@@ -4,9 +4,9 @@ lang: en-US
 description: View all the available commands and detailed information of the Suggestions bot.
 meta:
     - name: description
-      content: Managing Suggestions
+      content: View all the available commands and detailed information of the Suggestions bot.
     - name: theme-color
-      content: 0xdd9323
+      content: #dd9323
 ---
 
 # Commands

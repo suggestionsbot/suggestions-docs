@@ -4,9 +4,9 @@ lang: en-US
 description: Get started with inviting the Suggestions bot and setting up its primary features.
 meta:
     - name: description
-      content: Getting Started
+      content: Get started with inviting the Suggestions bot and setting up its primary features.
     - name: theme-color
-      content: 0xdd9323
+      content: #dd9323
 ---
 
 ## Getting Started
