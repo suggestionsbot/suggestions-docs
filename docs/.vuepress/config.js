@@ -3,6 +3,15 @@ module.exports = {
     description: 'The official documentation for the Suggestions bot. The only suggestions bot you\'ll ever need. Simple usage and management of suggestions for public and staff use.',
     dest: 'public',
     theme: 'dark-new',
+    head: [
+        [
+            'link', {
+                rel: 'shortcut icon',
+                type: 'image/x-icon',
+                href: './favicon.ico'
+            }
+        ]
+    ],
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
