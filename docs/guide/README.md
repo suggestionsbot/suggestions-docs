@@ -26,7 +26,7 @@ Here you can choose the server you wish to invite the bot to and choose what per
 
 Once the bot is in your server, there are a few housekeeping things you need to do \(you must have the`MANAGE_GUILD`permission to complete these steps\).
 
-Also by default, the prefix is`,`and the bot searches for`#suggestions`as the default user suggestions channel and`#suggestions-logs`as the default logs channel if a custom ones aren't set. The bot mention \(`@Suggestions#2602`\) can be used as a prefix for commands as well if you ever incorrectly set the prefix or forgot the prefix in general.
+Also by default, the prefix is`,`and the bot searches for`#suggestions`as the default user suggestions channel and`#suggestions-logs`as the default logs channel if a custom ones aren't set and. The bot mention \(`@Suggestions#2602`\) can be used as a prefix for commands as well if you ever incorrectly set the prefix or forgot the prefix in general.
 
 1. Create and set a user suggestions channel doing`setchannel <channel>`\(you can tag the channel\)
    1. Add the bot to that channel and exclusively give it the`SEND MESSAGES`and`ADD REACTIONS`permissions \(add anymore depending on what permissions you gave the bot globally\).
@@ -35,4 +35,4 @@ Also by default, the prefix is`,`and the bot searches for`#suggestions`as the de
 3. Add roles so users in that role can approve/reject user suggestions. You may do that with`role add <role>`where the role can either by tagged or typed out if it exists in the guild
 4. Choose an emoji set for your guild. You can view the available sets via the `setvotes` command and choose which one you want in your guild with `setvotes <#>` where `#`indicates which emoji option.
 
-Once you completed those steps, you should be set to go! Continue on to the [Managing Suggestions](managing-suggestions.md) page with information on approving/rejecting user suggestions.
+Once you completed those steps, you should be set to go! Click "Managing Suggestions" on the left or down below for more information on approving/rejecting user suggestions.
