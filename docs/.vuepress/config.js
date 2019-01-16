@@ -2,7 +2,7 @@ module.exports = {
     title: 'Suggestions Documentation',
     description: 'The official documentation for the Suggestions bot. The only suggestions bot you\'ll ever need. Simple usage and management of suggestions for public and staff use.',
     dest: "public",
-    base: "/docs/",
+    base: "/suggestions-docs/",
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
