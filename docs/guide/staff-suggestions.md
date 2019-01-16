@@ -4,9 +4,9 @@ lang: en-US
 description: Allow staff members to internally vote on staff suggestions without interference or the need for a second bot.
 meta:
     - name: description
-      content: Staff Suggestions
+      content: Allow staff members to internally vote on staff suggestions without interference or the need for a second bot.
     - name: theme-color
-      content: 0xdd9323
+      content: #dd9323
 ---
 
 # Staff Suggestions
