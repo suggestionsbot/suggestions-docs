@@ -6,7 +6,7 @@ meta:
     - name: description
       content: Get started with inviting the Suggestions bot and setting up its primary features.
     - name: theme-color
-      content: #dd9323
+      content: '#dd9323'
 ---
 
 ## Getting Started

@@ -6,7 +6,7 @@ meta:
     - name: description
       content: Use the easy but powerful suggesitons management to stay organized in your Discord.
     - name: theme-color
-      content: #dd9323
+      content: '#dd9323'
 ---
 
 # Managing Suggestions
