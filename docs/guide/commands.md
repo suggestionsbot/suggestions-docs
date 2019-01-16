@@ -54,7 +54,7 @@ These commands require the `MANAGE_GUILD` permission.
 | role | Add or remove a staff role for managing suggestions | [click](#role-command) |
 | roles | View all staff roles and admins | [click](#roles-command) |
 | setchannel | Set the channel where suggestions will be submitted to | [click](#set-channel-command) |
-| setlogs | Set the channel where suggestion results will be logged | [click](#set-logs-channel) |
+| setlogs | Set the channel where suggestion results will be logged | [click](#set-logs-command) |
 | setprefix | Set the bot prefix in the guild | [click](#set-prefix-command) |
 | setresponses | Enable or disable if a response is required for the `reject` command | [click](#set-responses-command) |
 | setstaffchannel | Set the channel where staff suggestions will be submitted to | [click](#set-staff-channel-command) |
