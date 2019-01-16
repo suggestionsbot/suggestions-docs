@@ -1,3 +1,14 @@
+---
+title: Managing Suggestions
+lang: en-US
+description: Use the easy but powerful suggesitons management to stay organized in your Discord.
+meta:
+    - name: description
+      content: Managing Suggestions
+    - name: theme-color
+      content: 0xdd9323
+---
+
 # Managing Suggestions
 
 _**Key:**_  

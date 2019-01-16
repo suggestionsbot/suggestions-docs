@@ -1,3 +1,14 @@
+---
+title: Commands
+lang: en-US
+description: View all the available commands and detailed information of the Suggestions bot.
+meta:
+    - name: description
+      content: Managing Suggestions
+    - name: theme-color
+      content: 0xdd9323
+---
+
 # Commands
 
 _**Key:**_  
@@ -25,6 +36,7 @@ _**Key:**_
 | vote | View all links to vote for the bot on various bot list sites | [click](#vote-command) |
 
 ## Staff Commands
+These commands require a staff role or the `MANAGE_GUILD` permission.
 | Command | Description | Guide |
 | ------- |:-----------:| -----:|
 | approve | Approve a submitted suggestion | [click](#approve-command) |
@@ -34,6 +46,7 @@ _**Key:**_
 
 
 ## Admin Commands
+These commands require the `MANAGE_GUILD` permission.
 | Command | Description | Guide |
 | ------- |:-----------:| -----:|
 | blacklist | Blacklist a user from all bot commands in the guild | [click](#blacklist-command) |

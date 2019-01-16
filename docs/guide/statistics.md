@@ -1,4 +1,15 @@
-# Suggestions
+---
+title: Statistics
+lang: en-US
+description: View basic statistics in the Discord with various commands.
+meta:
+    - name: description
+      content: Statistics
+    - name: theme-color
+      content: 0xdd9323
+---
+
+# Statistics
 
 ::: tip
 Logging of approved/rejected status of suggestions began on September 29, 2018. Any data before that *specifically* regarding the status of a suggestion is not logged. However, suggestion data in general, in the new database, has been logged. This explains the gap between approved/rejected suggestions and the total number of suggestions in your guild if you have had this bot in your guild for some time.

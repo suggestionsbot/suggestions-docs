@@ -1,7 +1,8 @@
 module.exports = {
     title: 'Suggestions Documentation',
     description: 'The official documentation for the Suggestions bot. The only suggestions bot you\'ll ever need. Simple usage and management of suggestions for public and staff use.',
-    dest: "public",
+    dest: 'public',
+    theme: 'dark-new',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
@@ -12,7 +13,6 @@ module.exports = {
         sidebar: {
             '/guide/': [
                 '',
-                'getting-started',
                 'managing-suggestions',
                 'staff-suggestions',
                 'statistics',
