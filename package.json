@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "The official documentation for the Suggestions bot. The only suggestions bot you'll ever need. Simple usage and management of suggestions for public and staff use.",
   "main": "app.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
-    "docs:build": "vuepress build docs;"
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "repository": "git@gitlab.com:acollierr17/suggestions-docs.git",
   "author": "acollierr17 <gamemaniac101@gmail.com>",
