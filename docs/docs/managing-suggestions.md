@@ -38,7 +38,7 @@ It seems like a lot doesn't it? It really isn't because it all happens in the ma
 
 Rejecting suggestions work the same way as approving suggestions. Once you run the command `reject <ID> [response]`the same series of actions will happen as stated above, just instead information of the suggestion being rejected will be posted.
 
-If responses are set to `true` via the usage of the [setresponses](commands#set-responses-command), then adding a response when rejecting a suggestion is required.
+If responses are set to `true` via the usage of the [setresponses](commands.md#set-responses-command), then adding a response when rejecting a suggestion is required.
 
 ![Suggestion Rejected Status](/images/BZCRVps.png)
 
