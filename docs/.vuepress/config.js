@@ -27,12 +27,12 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
+            { text: 'Documentation', link: '/docs/' },
             { text: 'Discord', link: 'https://discord.gg/g7wr8xb' },
             { text: 'Patreon', link: 'https://patreon.com/acollierr17' }
         ],
         sidebar: {
-            '/guide/': [
+            '/docs/': [
                 '',
                 'managing-suggestions',
                 'staff-suggestions',
@@ -41,5 +41,6 @@ module.exports = {
             ]
         },
         lastUpdated: 'Last Updated'
-    }
+    },
+    ga: 'UA-126253498-2'
 };

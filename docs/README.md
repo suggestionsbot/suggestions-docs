@@ -1,10 +1,10 @@
 ---
 home: true
 heroImage: images/suggestions-icon.png
-heroText: Suggestions Guide
-tagline: The official guide for the Suggestions bot. The most powerful suggestions feature set you'll find on Discord.
+heroText: Suggestions Documentation
+tagline: The official documentation for the Suggestions bot. The most powerful suggestions feature set you'll find on Discord.
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /docs/
 features:
 - title: Ease Of Use
   details: Create suggestions and easily manage them through bot commands. Designed for the most simple usage.
@@ -14,6 +14,6 @@ features:
   details: Configure a range of features from the channel suggestions will be submitted down to the emojis that will be added.
 meta:
     - name: description
-      content: The official guide for the Suggestions bot. The most powerful suggestions feature set you'll find on Discord.
+      content: The official documentation for the Suggestions bot. The most powerful suggestions feature set you'll find on Discord.
 footer: © 2019 Nerd Cave Development 
 ---
