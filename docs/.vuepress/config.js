@@ -16,6 +16,12 @@ module.exports = {
                 name: 'theme-color',
                 content: '#dd9323'
             }
+        ],
+        [
+            'meta', {
+                property: 'og:image',
+                content: '/images/suggestions-icon.png'
+            }
         ]
     ],
     themeConfig: {

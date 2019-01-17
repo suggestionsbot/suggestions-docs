@@ -21,26 +21,24 @@ Managing suggestions are simple. Each suggestion is assigned a **Suggestion ID**
 
 ## Approving Suggestions
 
-Suggestions are approved via the sID. Once you have it, run the command`approve <ID>`. Afterward, series of actions will happen:
+Suggestions are approved via the sID. Once you have it, run the command `approve <ID>`. Afterward, series of actions will happen:
 
 * The suggestion will update as "Approved" in the suggestions channel and shortly delete itself afterward
 * The user will receive a DM that you approved their suggestion
 * The results of that suggestion will be logged in the suggestions logs channel
-* _An optional response can be added doing_  `approve <ID> [response]`
+* _An optional response can be added doing_ `approve <ID> [response]`
 
 ![Suggestion Approved Status](/images/X06AWl6.png)
 
 ![Suggestion Approved DM](/images/2H0C5DM.png)
 
-![Suggestion Approved w/ Response]()
-
 It seems like a lot doesn't it? It really isn't because it all happens in the matter of seconds!
 
 ## Rejecting Suggestions
 
-Rejecting suggestions work the same way as approving suggestions. Once you run the command`reject <ID> [response]`the same series of actions will happen as stated above, just instead information of the suggestion being rejected will be posted.
+Rejecting suggestions work the same way as approving suggestions. Once you run the command `reject <ID> [response]`the same series of actions will happen as stated above, just instead information of the suggestion being rejected will be posted.
 
-If responses are set to `true` via the usage of the [setresponses](#commands#set-responses-command), then adding a response when rejecting a suggestion is required.
+If responses are set to `true` via the usage of the [setresponses](commands#set-responses-command), then adding a response when rejecting a suggestion is required.
 
 ![Suggestion Rejected Status](/images/BZCRVps.png)
 
