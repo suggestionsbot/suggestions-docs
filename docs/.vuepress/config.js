@@ -42,5 +42,8 @@ module.exports = {
         },
         lastUpdated: 'Last Updated'
     },
-    ga: 'UA-126253498-2'
+    ga: 'UA-126253498-2',
+    plugins: [
+        'back-to-top'
+    ]
 };
