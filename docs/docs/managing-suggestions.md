@@ -13,11 +13,15 @@ _**Key:**_
 `< >` = Required  
 `[ ]` = Optional
 
-Managing suggestions are simple. Each suggestion is assigned a **Suggestion ID** \(sID\). From there, staff members can either reject or approve a suggestion with the sID. The sID is located in the footer of each suggestion: 
+Managing suggestions are simple. Each suggestion is assigned a **Suggestion ID** \(sID\). From there, staff members can either approve, reject, or add a note to a suggestion with the sID. The sID is located in the footer of each suggestion: 
 
 ![Suggestion Example w/ sID](/images/DXjJkPA.png)
 
 ![Suggestion DM](/images/ItyPiS9.png)
+
+## Setting Up Staff Roles
+
+If you haven't already done so, please refer to the [Getting Started](README.md#set-up-the-bot) section to set up staff roles. By default, users with the `MANAGE_GUILD` permission can manage suggestions. However, if you want staff members to have access to these commands, please refer to the aforementioned section.
 
 ## Approving Suggestions
 
@@ -63,9 +67,11 @@ A newly introduced feature as of September 29, 2018, you have the ability to cho
 
 ![The available emoji set.](/images/hb0lqes.png)
 
-To change to any of these options, you can simply do `setvotes <#>`\(ex. `setvotes 3`\). The number is in front of each emoji set. Upon changing, any future suggestions will use that emoji set, as shown below:
+To change to any of these options, you can simply do `setvotes <#>`\(ex. `setvotes 3`\)*. The number is in front of each emoji set. Upon changing, any future suggestions will use that emoji set, as shown below:
 
 ![An example of one of the emoji sets.](/images/XfnmYyX.png)
+
+**User must have the `MANAGE_SERVER` permission to use this command.*
 
 ## Suggestion Notes
 
