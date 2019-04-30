@@ -34,7 +34,7 @@ _**Key:**_
 | vote | View all links to vote for the bot on various bot list sites | [click](#vote-command) |
 
 ## Staff Commands
-These commands require a staff role or the `MANAGE_GUILD` permission.
+These commands require a staff role or the Manage Server (`MANAGE_GUILD`) permission.
 | Command | Description | Guide |
 | ------- |:-----------:| -----:|
 | approve | Approve a submitted suggestion | [click](#approve-command) |
@@ -44,19 +44,21 @@ These commands require a staff role or the `MANAGE_GUILD` permission.
 
 
 ## Admin Commands
-These commands require the `MANAGE_GUILD` permission.
+These commands require the Manage Server (`MANAGE_GUILD`) permission.
 | Command | Description | Guide |
 | ------- |:-----------:| -----:|
 | blacklist | Blacklist a user from all bot commands in the guild | [click](#blacklist-command) |
-| config | View a text-version of all configuration settings in the guild | [click](#config-command) |
-| role | Add or remove a staff role for managing suggestions | [click](#role-command) |
-| roles | View all staff roles and admins | [click](#roles-command) |
-| setchannel | Set the channel where suggestions will be submitted to | [click](#set-channel-command) |
-| setlogs | Set the channel where suggestion results will be logged | [click](#set-logs-command) |
-| setprefix | Set the bot prefix in the guild | [click](#set-prefix-command) |
-| setresponses | Enable or disable if a response is required for the `reject` command | [click](#set-responses-command) |
-| setstaffchannel | Set the channel where staff suggestions will be submitted to | [click](#set-staff-channel-command) |
-| setvotes | Set which emoji set will be used for suggestions | [click](#set-votes-command) |
+| config | View and update various configuration settings of the bot | [click](#config-command) |
+| role* | Add or remove a staff role for managing suggestions | [click](#role-command) |
+| roles* | View all staff roles and admins | [click](#roles-command) |
+| setchannel* | Set the channel where suggestions will be submitted to | [click](#set-channel-command) |
+| setlogs* | Set the channel where suggestion results will be logged | [click](#set-logs-command) |
+| setprefix* | Set the bot prefix in the guild | [click](#set-prefix-command) |
+| setresponses* | Enable or disable if a response is required for the `reject` command | [click](#set-responses-command) |
+| setstaffchannel* | Set the channel where staff suggestions will be submitted to | [click](#set-staff-channel-command) |
+| setvotes* | Set which emoji set will be used for suggestions | [click](#set-votes-command) |
+
+**These commands will be removed in the near future as all this functionality has been moved to the `config` command*
 
 ## Command Information
 
@@ -82,17 +84,27 @@ Aliases: `changes, updates, changelogs`
 
 ### Config Command
 ```
-,config
+,config [setting] [value]
 ```
-View a text-based version of the bot configuration for the guild.
+View and update various configuration settings of the bot. You can check a specific setting by doing `,config [setting]` and update a specific setting by doing `,config [setting] [value]`.
 
-Aliases: `conf, viewconf, viewconfig, settings`
+*This will eventually replace the other configuration commands listed below:*
+- `role`
+- `roles`
+- `setchannel`
+- `setlogs`
+- `setstaffchannel`
+- `setprefix`
+- `setresponses`
+- `setvotes`
+
+Aliases: `conf, settings`
 
 ### Channel Command
 ```
 ,channel
 ```
-This command sends a message of the current suggestions channel. If not suggestions channel is set, it will error letting you know.
+This command sends a message of the current suggestions channel. If no suggestions channel is set, it will display an error letting you know.
 
 ### Help Command
 ```
@@ -220,7 +232,7 @@ View the information of a suggestion with the suggestion ID (sID). Information s
 ```
 ,staffsuggest <suggestion>
 ```
-Submit a new suggestion for staff members to vote. These suggestions go in the set staff suggestions channel. This feature is specific to staff members of a Discord and is meant for interal voting without the need for a second Discord bot.
+Submit a new suggestion for staff members to vote. These suggestions go in the set staff suggestions channel. This feature is specific to staff members of a Discord and is meant for voting without the need for a second Discord bot.
 
 ### Stats Command
 ```

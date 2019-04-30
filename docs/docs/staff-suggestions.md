@@ -19,7 +19,7 @@ This feature is something that makes the bot unique, versatile, and prevents ser
 
 Remember the suggestions role you created back at the [Getting Started](README.md) section? Well it comes to use here as well! This is because users with that role can not only manage suggestions, but they can submit suggestions internally! The setup mirrors the initial suggestions channel setup process:
 
-1. Create and set a staff suggestions channel by doing `setstaffchannel <channel>` (you can tag the channel; you must have the `MANAGE_GUILD` permission to do this action)
+1. Create and set a staff suggestions channel by doing `config staffchannel <channel>` (you can tag the channel; you must have the Manage Server (`MANAGE_GUILD`) permission to do this action)
    1. Add the bot to that channel and exclusively give it the `SEND MESSAGES` and `ADD REACTIONS` permissions (add anymore depending on what permissions you gave the bot globally).
    2. Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean and that users only vote with the ✅ and ❌emojis.
 2. Assign designated individuals the set staff role that you made earlier (only users with this role can submit staff suggestions!)

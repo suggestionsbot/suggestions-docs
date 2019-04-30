@@ -15,9 +15,20 @@ _**Key:**_
 
 Managing suggestions are simple. Each suggestion is assigned a **Suggestion ID** \(sID\). From there, staff members can either approve, reject, or add a note to a suggestion with the sID. The sID is located in the footer of each suggestion: 
 
-![Suggestion Example w/ sID](/images/DXjJkPA.png)
+![Suggestion Example w/ sID](/images/managing-suggestions-1.png)
 
-![Suggestion DM](/images/ItyPiS9.png)
+![Suggestion DM](/images/managing-suggestions-2.png)
+
+
+## DM Responses
+DM responses are sent to the suggestion submitter based on various actions. DM responses may be toggled via `config dmResponses <true/false>`. This means DMs to the suggestion sumbitter will or won't not be sent via these actions based on how you configure the bot for your server:
+
+- Suggestion submitted
+- Suggestion approved
+- Suggestion rejected
+- Suggestion note added
+
+By default, DM responses are enabled. This can be configured by a user with the Manager Server (`MANAGE_GUILD`) permission.
 
 ## Setting Up Staff Roles
 
@@ -32,9 +43,9 @@ Suggestions are approved via the sID. Once you have it, run the command `approve
 * The results of that suggestion will be logged in the suggestions logs channel
 * _An optional response can be added doing_ `approve <ID> [response]`
 
-![Suggestion Approved Status](/images/X06AWl6.png)
+![Suggestion Approved Status](/images/managing-suggestions-3.png)
 
-![Suggestion Approved DM](/images/2H0C5DM.png)
+![Suggestion Approved DM](/images/managing-suggestions-4.png)
 
 It seems like a lot doesn't it? It really isn't because it all happens in the matter of seconds!
 
@@ -44,43 +55,43 @@ Rejecting suggestions work the same way as approving suggestions. Once you run t
 
 If responses are set to `true` via the usage of the [setresponses](commands.md#set-responses-command), then adding a response when rejecting a suggestion is required.
 
-![Suggestion Rejected Status](/images/BZCRVps.png)
+![Suggestion Rejected Status](/images/managing-suggestions-5.png)
 
-![Suggestion Rejected DM](/images/maFdPG9.png)
+![Suggestion Rejected DM](/images/managing-suggestions-6.png)
 
 ## Suggestions Logging
 
-When a suggestion is approved or rejected, it's results are logged to the suggestions logs channel you set earlier. In that channel, you'll find this information for each result:
+When a suggestion is approved or rejected, it's results are logged to the suggestions logs channel. If you have not set one up yet, refer to the [Getting Started](README.md#setting-up-the-bot) section. In the logs channel, you'll find this information for each result:
 
-* The results \(both upvotes and down votes\)
+* The results (both upvotes and down votes)
 * The suggestion
 * The submitter
 * The staff member that approved or rejected the suggestion
 * The sID
-* The response if one was give
+* The response (if one was given)
 
-![Suggestion Results](/images/X06AWl6.png)
+![Suggestion Results](/images/managing-suggestions-6.png)
 
 ## Suggestions Emojis
 
 A newly introduced feature as of September 29, 2018, you have the ability to choose from a predefined list of emojis to be used for your suggestions. Setting this up is really simple. To see the available options as well as the option you have configured,  use the command `setvotes`
 
-![The available emoji set.](/images/hb0lqes.png)
+![The available emoji sets.](/images/managing-suggestions-7.png)
 
-To change to any of these options, you can simply do `setvotes <#>`\(ex. `setvotes 3`\)*. The number is in front of each emoji set. Upon changing, any future suggestions will use that emoji set, as shown below:
+To change to any of these options, you can simply do `config emojis <#>`\(ex. `config emojis 3`\)*. The number is in front of each emoji set. Upon changing, any future suggestions will use that emoji set, as shown below:
 
-![An example of one of the emoji sets.](/images/XfnmYyX.png)
+![An example of one of the emoji sets.](/images/managing-suggestions-8.png)
 
-**User must have the `MANAGE_SERVER` permission to use this command.*
+**User must have the `MANAGE_GUILD` permission to use this command.*
 
 ## Suggestion Notes
 
 A newly introduced feature as of December 2, 2018, you have the ability to add notes to a submitted suggestion. Notes can be used to not only notify the submitter of a suggestion about a change or improvement, but also notify the community as well.
 
-![An example of a suggestion note](/images/iWsmKzx.png)
+![An example of a suggestion note](/images/managing-suggestions-9.png)
 
 To add a note to a suggestion, simply retrieve the sID and do `note <sID> <note>` where the `note` can be any message you wish to choose. Upon adding a note, the submitter of the suggestion will receive a DM with that information:
 
-![An example of a suggestion note in DM](/images/cGoggOj.png)
+![An example of a suggestion note in DM](/images/managing-suggestions-10.png)
 
 A new note can be added and it'll override the current note on the suggestion. However, all previous notes are saved and will be accessible in the future (TBD).

@@ -28,6 +28,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Documentation', link: '/docs/' },
+            { text: 'Website', link: 'https://suggestionsbot.com' },
             { text: 'Discord', link: 'https://discord.gg/g7wr8xb' },
             { text: 'Patreon', link: 'https://patreon.com/acollierr17' }
         ],
@@ -44,6 +45,6 @@ module.exports = {
     },
     ga: 'UA-126253498-2',
     plugins: [
-        'back-to-top'
+        ['@vuepress/back-to-top', true]
     ]
 };
