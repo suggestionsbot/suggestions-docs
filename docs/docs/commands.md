@@ -35,6 +35,7 @@ _**Key:**_
 
 ## Staff Commands
 These commands require a staff role or the Manage Server (`MANAGE_GUILD`) permission.
+
 | Command | Description | Guide |
 | ------- |:-----------:| -----:|
 | approve | Approve a submitted suggestion | [click](#approve-command) |
@@ -45,6 +46,7 @@ These commands require a staff role or the Manage Server (`MANAGE_GUILD`) permis
 
 ## Admin Commands
 These commands require the Manage Server (`MANAGE_GUILD`) permission.
+
 | Command | Description | Guide |
 | ------- |:-----------:| -----:|
 | blacklist | Blacklist a user from all bot commands in the guild | [click](#blacklist-command) |
