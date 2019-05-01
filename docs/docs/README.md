@@ -11,7 +11,7 @@ meta:
 
 To invite the bot, you must use [this link](https://discordapp.com/oauth2/authorize?client_id=474051954998509571&scope=bot&permissions=93248).
 
-Here you can choose the server you wish to invite the bot to and choose what permissions. It is best to leave the permissions alone or you'll most likely run into issues. The bot is only assigned the permissions it needs. Those permissions are:
+Here you can choose the server you wish to invite the bot to and choose what permissions it should have. It is best to leave the permissions alone or you'll most likely run into issues. The bot is only assigned the permissions it needs. Those permissions are:
 
 * Read Messages & View Channels (`VIEW_CHANNEL`)
 * Send Messages (`SEND_MESSAGES`)
@@ -22,15 +22,17 @@ Here you can choose the server you wish to invite the bot to and choose what per
 
 ## Set Up the Bot
 
-Once the bot is in your server, there are a few housekeeping things you need to do (you must have the `MANAGE_GUILD` permission to complete these steps).
+Once the bot is in your server, there are a few housekeeping things you need to do (you must have the Manage Server (`MANAGE_GUILD`) permission to complete these steps).
 
-Also by default, the prefix is`,`and the bot searches for `#suggestions` as the default user suggestions channel and `#suggestions-logs` as the default logs channel if a custom ones aren't set. The bot mention (`@Suggestions#2602`) can be used as a prefix for commands as well if you ever incorrectly set the prefix or forgot the prefix in general.
+Also by default, the prefix is`,`and the bot searches for `#suggestions` as the default user suggestions channel. The bot mention (`@Suggestions#2602`) can be used as a prefix for commands as well if you ever incorrectly set the prefix or forget the prefix in general.
 
-1. Create and set a user suggestions channel doing `setchannel <channel>` (you can tag the channel)
+1. Create and set a user suggestions channel doing `config channel <channel>` (you can tag the channel)
    1. Add the bot to that channel and exclusively give it the `SEND MESSAGES` and `ADD REACTIONS` permissions (add anymore depending on what permissions you gave the bot globally).
    2. Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean and that users only vote with the configured emoji set (ex. the ✅ and ❌emojis).
-2. Create and set a suggestions log channel doing `setlogs <channel>` (you can tag the channel)
-3. Add roles so users in that role can approve/reject user suggestions. You may do that with `role add <role>` where the role can either by tagged or typed out if it exists in the guild
-4. Choose an emoji set for your guild. You can view the available sets via the `setvotes` command and choose which one you want in your guild with `setvotes <#>` where `#` indicates which emoji option.
+2. Create and set a suggestions log channel doing `config logs <channel>` (you can tag the channel)
+3. Add roles so users in that role can approve/reject user suggestions. You may do that with `config roles <role>` where the role can either by tagged or typed out if it exists in the guild
+4. Choose an emoji set for your guild. You can view the available sets via the `config emojis` command and choose which one you want in your guild with `config emojis <#>` where `#` indicates which emoji option.
+
+*Options 2 and 3 are only required if you will be managing suggestions using the `approve` and `reject` commands.*
 
 Once you completed those steps, you should be set to go! Click "Managing Suggestions" on the left or down below for more information on approving/rejecting user suggestions.
