@@ -51,16 +51,6 @@ These commands require the Manage Server (`MANAGE_GUILD`) permission.
 | ------- |:-----------:| -----:|
 | blacklist | Blacklist a user from all bot commands in the guild | [click](#blacklist-command) |
 | config | View and update various configuration settings of the bot | [click](#config-command) |
-| role* | Add or remove a staff role for managing suggestions | [click](#role-command) |
-| roles* | View all staff roles and admins | [click](#roles-command) |
-| setchannel* | Set the channel where suggestions will be submitted to | [click](#set-channel-command) |
-| setlogs* | Set the channel where suggestion results will be logged | [click](#set-logs-command) |
-| setprefix* | Set the bot prefix in the guild | [click](#set-prefix-command) |
-| setresponses* | Enable or disable if a response is required for the `reject` command | [click](#set-responses-command) |
-| setstaffchannel* | Set the channel where staff suggestions will be submitted to | [click](#set-staff-channel-command) |
-| setvotes* | Set which emoji set will be used for suggestions | [click](#set-votes-command) |
-
-**These commands will be removed in the near future as all this functionality has been moved to the `config` command*
 
 ## Command Information
 
@@ -89,16 +79,6 @@ Aliases: `changes, updates, changelogs`
 ,config [setting] [value]
 ```
 View and update various configuration settings of the bot. You can check a specific setting by doing `,config [setting]` and update a specific setting by doing `,config [setting] [value]`.
-
-*This will eventually replace the other configuration commands listed below:*
-- `role`
-- `roles`
-- `setchannel`
-- `setlogs`
-- `setstaffchannel`
-- `setprefix`
-- `setresponses`
-- `setvotes`
 
 Aliases: `conf, settings`
 
@@ -164,22 +144,6 @@ This command sends a message of the current guild prefix. If no prefix is set, i
 ```
 Reject a submitted suggestion via the suggestion ID (sID) with an optional reponse. A response is only required if [setresponses](#set-responses-command) is set to `true`.
 
-### Role Command
-```
-,role add/remove <role>
-```
-Add or remove staff roles for managing suggestions and access to submit staff suggestions.
-
-Aliases: `staffrole`
-
-### Roles Command
-```
-,roles
-```
-View the current staff roles and guild admins for the bot. Guild admins are users who have the `MANAGE_GUILD (Manage Server)` permission. They also have access to all `Admin` commands of the bot.
-
-Aliases: `staffroles, viewroles, viewrole`
-
 ### Server Info Command
 ```
 ,serverinfo
@@ -187,42 +151,6 @@ Aliases: `staffroles, viewroles, viewrole`
 Display guild information regarding the bot.
 
 Aliases: `guildinfo`
-
-### Set Channel Command
-```
-,setchannel <channel>
-```
-Set a new suggestions channel.
-
-### Set Logs Command
-```
-,setlogs <channel>
-```
-Set a logs channel for suggestion results when a suggestion is approved or rejected.
-
-### Set Prefix Command
-```
-,setprefix <prefix>
-```
-Set a new prefix for the bot.
-
-### Set Responses Command
-```
-,setresponses <true/false>
-```
-Set if a response is required or not for rejecting suggestions.
-
-### Set Staff Channel Command
-```
-,setstaffchannel <channel>
-```
-Set a new staff suggestions channel. This channel is meant to be specific to staff members of a Discord. It's meant for internal voting without the need for a second Discord bot.
-
-### Set Votes Command
-```
-,setvotes [id]
-```
-View all available emoji sets for the bot and see which one you are using. Use this command to also set which emoji set you wish to use via its ID.
 
 ### sID Command
 ```
