@@ -38,7 +38,8 @@ module.exports = {
                 'managing-suggestions',
                 'staff-suggestions',
                 'statistics',
-                'commands'
+                'configuration',
+                'commands',
             ]
         },
         lastUpdated: 'Last Updated'

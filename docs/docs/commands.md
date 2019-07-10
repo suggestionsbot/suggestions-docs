@@ -12,7 +12,6 @@ meta:
 _**Key:**_  
 `< >` = Required  
 `[ ]` = Optional  
-`emoji set` = Refers to the set of reactions that are added to all suggestions  
 `bot` = Refers to the Suggestions bot  
 
 ## General Commands
@@ -142,7 +141,7 @@ This command sends a message of the current guild prefix. If no prefix is set, i
 ```
 ,reject <sID> [response]
 ```
-Reject a submitted suggestion via the suggestion ID (sID) with an optional reponse. A response is only required if [setresponses](#set-responses-command) is set to `true`.
+Reject a submitted suggestion via the suggestion ID (sID) with an optional reponse. A response is only required if DM responses are to `true` (check the [config](#config-command) command).
 
 ### Server Info Command
 ```

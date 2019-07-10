@@ -11,7 +11,7 @@ meta:
 
 _**Key:**_  
 `< >` = Required  
-`[ ]` = Optional
+`[ ]` = Optional  
 
 Managing suggestions are simple. Each suggestion is assigned a **Suggestion ID** \(sID\). From there, staff members can either approve, reject, or add a note to a suggestion with the sID. The sID is located in the footer of each suggestion: 
 
