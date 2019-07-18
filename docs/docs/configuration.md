@@ -49,7 +49,7 @@ Usage: `config logs` or `config logs [channel]`
 You can either view or set the channel where suggestion results will be posted after a suggestion is approved or denied. The options to pass through follow the same as setting the [Suggestions Channel](#suggestions-channel). Keep in mind you cannot set a channel that does not exist.
 
 ## Staff Suggestions Channel
-Usage: `config stafchannel` or `config staffchannel [channel]`
+Usage: `config staffchannel` or `config staffchannel [channel]`
 
 You can either view or set the channel where staff suggestions will be posted to. The options to pass through follow the same as setting the [Suggestions Channel](#suggestions-channel). Keep in mind you cannot set a channel that does not exist.
 
