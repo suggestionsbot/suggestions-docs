@@ -29,7 +29,7 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: 'Documentation', link: '/docs/' },
             { text: 'Website', link: 'https://suggestionsbot.com' },
-            { text: 'Discord', link: 'https://discord.gg/g7wr8xb' },
+            { text: 'Discord', link: 'https://discord.gg/ntXkRan' },
             { text: 'Patreon', link: 'https://patreon.com/acollierr17' }
         ],
         sidebar: {
