@@ -69,7 +69,7 @@ Add or remove a user from the bot blacklist (guild-only). This means the user ca
 ```
 ,changelog
 ```
-The changelog command displays the information for the most recent changelog. Also included is an invite to the [Support Discord](https://discord.gg/g7wr8xb) where you can view all previous changelogs.
+The changelog command displays the information for the most recent changelog. Also included is an invite to the [Support Discord](https://discord.gg/ntXkRan) where you can view all previous changelogs.
 
 Aliases: `changes, updates, changelogs`
 
@@ -99,7 +99,7 @@ Aliases: `h, halp`
 ```
 ,info
 ```
-The info command displays the bot author, bot description, the link to this documenation and the [Support Discord](https://discord.gg/g7wr8xb). Some of the most important information is found here.
+The info command displays the bot author, bot description, the link to this documenation and the [Support Discord](https://discord.gg/ntXkRan). Some of the most important information is found here.
 
 Aliases: `botinfo`
 
@@ -107,7 +107,7 @@ Aliases: `botinfo`
 ```
 ,invite
 ```
-The invite command sends the user a DM with the bot invite link as well as the link to this documenation and the [Support Discord](https://discord.gg/g7wr8xb).
+The invite command sends the user a DM with the bot invite link as well as the link to this documenation and the [Support Discord](https://discord.gg/ntXkRan).
 
 ### Note Command
 ```
