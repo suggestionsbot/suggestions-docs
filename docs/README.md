@@ -15,5 +15,5 @@ features:
 meta:
     - name: description
       content: The official documentation for the Suggestions bot. The most powerful suggestions feature set you'll find on Discord.
-footer: © 2019 Nerd Cave Development 
+footer: © 2021 Anthony Collier 
 ---
