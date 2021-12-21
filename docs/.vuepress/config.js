@@ -25,12 +25,19 @@ module.exports = {
         ]
     ],
     themeConfig: {
+        repo: 'suggestionsbot/suggestions-bot',
+        repoLabel: 'Contribute!',
+        docsRepo: 'suggestionsbot/suggestions-docs',
+        docsDir: 'docs',
+        docsBranch: 'main',
+        editLinks: true,
+        editLinkText: 'Help us improve this page!',
+        smoothScroll: true,
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Documentation', link: '/docs/' },
             { text: 'Website', link: 'https://suggestionsbot.com' },
-            { text: 'Discord', link: 'https://discord.gg/ntXkRan' },
-            { text: 'Patreon', link: 'https://patreon.com/acollierr17' }
+            { text: 'Discord', link: 'https://discord.gg/suggestions' },
         ],
         sidebar: {
             '/docs/': [
