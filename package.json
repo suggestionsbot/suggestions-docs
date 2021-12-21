@@ -2,20 +2,19 @@
   "name": "suggestions-docs",
   "version": "1.0.0",
   "description": "The official documentation for the Suggestions bot. The only suggestions bot you'll ever need. Simple usage and management of suggestions for public and staff use.",
-  "main": "app.js",
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "repository": "git@gitlab.com:acollierr17/suggestions-docs.git",
-  "author": "acollierr17 <gamemaniac101@gmail.com>",
+  "repository": "git@github.com:suggestionsbot/suggestions-docs.git",
+  "author": "Anthony Collier <hello@acollier.dev>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^0.14.8",
+    "vuepress": "^0.14.11",
     "vuepress-theme-dark-new": "^0.1.2"
   },
   "dependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.2",
-    "@vuepress/plugin-google-analytics": "^1.0.2"
+    "@vuepress/plugin-back-to-top": "^1.8.3",
+    "@vuepress/plugin-google-analytics": "^1.8.3"
   }
 }
