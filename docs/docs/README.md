@@ -27,9 +27,8 @@ Once the bot is in your server, there are a few housekeeping things you need to 
 Also by default, the prefix is `,` and the bot searches for `#suggestions` as the default suggestions channel. The bot mention (`@Suggestions#2602`) can be used as a prefix for commands as well if you ever incorrectly set the prefix or forget the prefix in general.
 
 1. Create and set a suggestions channel by running `config channel <channel>`. (You can tag the channel.)
-   i. Add the bot to that channel and exclusively give it the `SEND MESSAGES` and `ADD REACTIONS` permissions. (Add anymore depending on what permissions you gave the bot 
-   globally.)
-   ii. Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean and that users only vote with the configured emoji set (ex. the ✅ and ❌ emojis).
+   a) Add the bot to that channel and exclusively give it the `SEND MESSAGES` and `ADD REACTIONS` permissions. (Add anymore depending on what permissions you gave the bot globally.)
+   b) Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean and that users only vote with the configured emoji set (ex. the ✅ and ❌ emojis).
 
 2. Create and set a suggestions log channel by running `config logs <channel>`. (You can tag the channel.)
 
