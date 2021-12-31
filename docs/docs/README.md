@@ -28,9 +28,9 @@ Also by default, the prefix is `,` and the bot searches for `#suggestions` as th
 
 1. Create and set a suggestions channel by running `config channel <channel>`. (You can tag the channel.)
 
-2. Add the bot to the suggestions channel and exclusively give the bot the `SEND MESSAGES` and `ADD REACTIONS` permissions. (Add anymore depending on what permissions you gave the bot globally.)
+2. Add the bot to that channel's permissions and exclusively give it the `SEND MESSAGES` and `ADD REACTIONS` permissions. (Add anymore depending on what permissions you gave the bot globally.)
 
-3. Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the suggestions channel clean and that users only vote with the configured emoji set (ex. the ✅ and ❌ emojis).
+3. Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean and that users only vote with the configured emoji set (ex. the ✅ and ❌ emojis).
 
 4. Create and set a suggestions log channel by running `config logs <channel>`. (You can tag the channel.)
 
