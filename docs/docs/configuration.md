@@ -12,8 +12,8 @@ meta:
 _**Key:**_  
 `< >` = Required  
 `[ ]` = Optional  
-`bot` = Refers to the Suggestions bot
-`administrator` = Refers to a user with the Manage Server `(MANAGE_GUILD)` permission
+`bot` = Refers to the Suggestions bot  
+`administrator` = Refers to a user with the Manage Server `(MANAGE_GUILD)` permission  
 `emoji set` = Refers to the reactions added to suggestions  
 
 One of the core components of the bot is the fact that the administrators can configure various aspects of the bot to their liking. From the emojis used on suggestions to DM responses, you can take control of your server's experience.
