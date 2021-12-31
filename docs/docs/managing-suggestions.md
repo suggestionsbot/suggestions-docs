@@ -10,11 +10,12 @@ meta:
 # Managing Suggestions
 
 _**Key:**_  
-`< >` = Required argument  
-`[ ]` = Optional argument
+`< >` = Required  
+`[ ]` = Optional  
 
 **Note:** Although you're not supposed to type these placeholders, you can type them when running a command and the bot will ignore them.
 
+`|` = Means "or"  
 `administrator` = A user with the Manage Server (`MANAGE_GUILD`) permission
 
 Managing suggestions is simple. Each suggestion is assigned a **Suggestion ID** \(sID\). From there, staff members can either approve, reject, or add a note to a suggestion with the sID. The sID is located in the footer of each suggestion: 
@@ -41,12 +42,12 @@ If you haven't already done so, please refer to the [Getting Started](README.md#
 
 ## Approving Suggestions
 
-Suggestions are approved via the sID. Once you have it, run the command `approve <ID>`. Afterward, series of actions will happen:
+Suggestions are approved via the sID. Once you have it, run the command `approve <sID|message ID>`. Afterward, series of actions will happen:
 
 * The suggestion will update as "Approved" in the suggestions channel and shortly delete itself afterward.
 * The user will receive a DM that you approved their suggestion.
 * The results of that suggestion will be logged in the suggestions logs channel.
-* _An optional response can be added by running_ `approve <ID> [response]`.
+* _An optional response can be added by running_ `approve <sID|message ID> [response]`.
 
 ![Suggestion Approved Status](/images/managing-suggestions-3.png)
 
@@ -56,7 +57,7 @@ It seems like a lot, doesn't it? It really isn't, because it all happens in the 
 
 ## Rejecting Suggestions
 
-Rejecting suggestions work the same way as approving suggestions. Once you run the command `reject <ID> [response]`, the same series of actions will happen as stated above, but information of the suggestion being rejected will be posted instead.
+Rejecting suggestions work the same way as approving suggestions. Once you run the command `reject <sID|message ID> [response]`, the same series of actions will happen as stated above, but information of the suggestion being rejected will be posted instead.
 
 If responses are set to `true` via the usage of the [setresponses](commands.md#set-responses-command), then adding a response when rejecting a suggestion is required.
 
@@ -95,7 +96,7 @@ Since December 2, 2018, you've had the ability to add notes to a submitted sugge
 
 ![An example of a suggestion note](/images/managing-suggestions-9.png)
 
-To add a note to a suggestion, simply retrieve the sID and do `note <sID> <note>`, where the `note` can be any message you wish to choose. Upon adding a note, the submitter of the suggestion will receive a DM with that information:
+To add a note to a suggestion, simply retrieve the sID and do `note <sID|suggestion ID> <note>`, where the `note` can be any message you wish to choose. Upon adding a note, the submitter of the suggestion will receive a DM with that information:
 
 ![An example of a suggestion note in DM](/images/managing-suggestions-10.png)
 
