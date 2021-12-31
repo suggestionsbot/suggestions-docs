@@ -15,7 +15,7 @@ _**Key:**_
 
 **Note:** Although you're not supposed to type these placeholders, you can type them when running a command and the bot will ignore them.
 
-`Admin` = A user with the Manage Server (`MANAGE_GUILD`) permission
+`administrator` = A user with the Manage Server (`MANAGE_GUILD`) permission
 
 Managing suggestions is simple. Each suggestion is assigned a **Suggestion ID** \(sID\). From there, staff members can either approve, reject, or add a note to a suggestion with the sID. The sID is located in the footer of each suggestion: 
 
@@ -33,11 +33,11 @@ DM responses are sent to the suggestion submitter based on various actions. DM r
 - suggestion rejected
 - suggestion note added
 
-By default, DM responses are enabled. This can be configured by an admin.
+By default, DM responses are enabled. This can be configured by an administrator.
 
 ## Setting Up Staff Roles
 
-If you haven't already done so, please refer to the [Getting Started](README.md#set-up-the-bot) section to set up staff roles. By default, only admins can manage suggestions. However, if you want other staff members to have access to these commands, please refer to the aforementioned section.
+If you haven't already done so, please refer to the [Getting Started](README.md#set-up-the-bot) section to set up staff roles. By default, only administrators can manage suggestions. However, if you want other staff members to have access to these commands, please refer to the aforementioned section.
 
 ## Approving Suggestions
 
@@ -87,7 +87,7 @@ To change to any of these options, you can simply run `config emojis <#>`\(e.g. 
 
 ![An example of one of the emoji sets.](/images/managing-suggestions-8.png)
 
-**User must be an admin to use this command.*
+**User must be an administrator to use this command.*
 
 ## Suggestion Notes
 
