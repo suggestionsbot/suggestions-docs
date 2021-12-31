@@ -18,7 +18,7 @@ However, it'll be possible to manage staff suggestions when the next version of 
 
 This feature makes the bot unique, versatile, and prevents server owners from having to get a second bot to deal with matters like this. And getting a second bot for the same feature used in a different way is not always practical. That's why this bot has the feature for staff members to submit suggestions to be voted on and dealt with internally.
 
-Remember the suggestions role you created back at the [Getting Started](README.md) section? Well it comes to use here as well! This is because users with that role can not only manage suggestions, but they can submit suggestions internally! The setup mirrors the initial suggestions channel setup process:
+Remember the suggestions role you created back at the [Getting Started](README.md) section? Well, it comes to use here as well! This is because users with that role can not only manage suggestions, but they can also submit suggestions internally! The setup mirrors the initial suggestions channel setup process:
 
 1. Create and set a staff suggestions channel by doing `config staffchannel <channel>` (you can tag the channel; you must have the Manage Server (`MANAGE_GUILD`) permission to do this action)
    1. Add the bot to that channel and exclusively give it the `SEND MESSAGES` and `ADD REACTIONS` permissions (add anymore depending on what permissions you gave the bot globally).
