@@ -12,7 +12,9 @@ meta:
 _**Key:**_  
 `< >` = Required argument  
 `[ ]` = Optional argument
+
 **Note:** Although you're not supposed to type these placeholders, you can type them when running a command and the bot will ignore them.
+
 `Admin` = A user with the Manage Server (`MANAGE_GUILD`) permission
 
 Managing suggestions is simple. Each suggestion is assigned a **Suggestion ID** \(sID\). From there, staff members can either approve, reject, or add a note to a suggestion with the sID. The sID is located in the footer of each suggestion: 
