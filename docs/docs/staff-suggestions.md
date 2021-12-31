@@ -10,7 +10,8 @@ meta:
 # Staff Suggestions
 
 ::: warning
-This feature does not mirror the regular user suggestions. This means there is no logging or a unique sID for each suggestion. It's a lightweight feature that allows staff members to vote on matters internally with zero interference of the user suggestions feature.
+This feature doesn't mirror the regular user suggestions. This means there's no logging, a unique sID for each suggestion, or a way to manage a staff suggestion by using its message ID. It's a lightweight feature that allows staff members to vote on matters internally with zero interference of the user suggestions feature.
+However, it'll be possible to manage staff suggestions when the next version of the bot is released.
 :::
 
 ## Setting Things Up
