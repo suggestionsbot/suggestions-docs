@@ -81,7 +81,7 @@ When a suggestion is approved or rejected, its results are logged to the suggest
 
 Since September 29, 2018, you've had the ability to choose from a predefined list of emojis to be used for your suggestions. Setting this up is really simple. To see the available options as well as the option you've configured, use the command `config emojis`.
 
-![The available emoji sets.](/.vuepress/public/images/managing-suggestions-7.png)
+![The available emoji sets.](/images/managing-suggestions-7.png)
 
 To change to any of these options, you can simply do `config emojis <#>`\(ex. `config emojis 3`\)*. The number is in front of each emoji set. Upon changing, any future suggestions will use that emoji set, as shown below:
 
