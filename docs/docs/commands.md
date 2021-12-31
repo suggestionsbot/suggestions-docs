@@ -12,24 +12,25 @@ meta:
 _**Key:**_  
 `< >` = Required  
 `[ ]` = Optional  
+`|` = Means "or"
 `bot` = Refers to the Suggestions bot  
 
 ## General Commands
 | Command        | Description           | Guide  |
 | ------------- |:-------------:| -----:|
 | changelog      | View the recent changelog for the bot | [click](#changelog-command) |
-| channel | View the current suggestions channel in the guild | [click](#channel-command) |
+| channel | View the current suggestions channel in the server | [click](#channel-command) |
 | help      | View bot commands and where to receive support      |   [click](#help-command) |
 | info | View bot information      |    [click](#info-command) |
 | invite | Receive a DM with information on inviting the bot to your server | [click](#invite-command) | 
-| patrons | View all Patrons who have pledged to Nerd Cave Development | [click](#patrons-command) |
+| patrons | View all Patrons who've pledged to Nerd Cave Development | [click](#patrons-command) |
 | ping | View the latency of the bot and API | [click](#ping-command) | 
-| prefix | View the current prefix in the guild | [click](#prefix-command) |
-| serverinfo | Display guild information regarding the bot | [click](#server-info-command) |
-| sid | View the informatin of a specific guild suggestion by their sID | [click](#sid-command) |
+| prefix | View the current prefix in the server | [click](#prefix-command) |
+| serverinfo | Display server information regarding the bot | [click](#server-info-command) |
+| sid | View the information of a specific server suggestion by its sID | [click](#sid-command) |
 | stats | View bot statistics | [click](#stats-command) |
 | suggest | Submit a new suggestion | [click](#suggest-command) |
-| suggestions | View suggestions data in the guild | [click](#suggestions-command) |
+| suggestions | View suggestions data in the server | [click](#suggestions-command) |
 | vote | View all links to vote for the bot on various bot list sites | [click](#vote-command) |
 
 ## Staff Commands
@@ -40,7 +41,7 @@ These commands require a staff role or the Manage Server (`MANAGE_GUILD`) permis
 | approve | Approve a submitted suggestion | [click](#approve-command) |
 | note | Add a note to a submitted suggestion | [click](#note-command) |
 | reject | Reject a submitted suggestion | [click](#reject-command) | 
-| staffsuggest | Submit a staff suggestion to be viewed by staff-only | [click](#staff-suggest-command) |
+| staffsuggest | Submit a staff suggestion to be viewed by staff only | [click](#staff-suggest-command) |
 
 
 ## Admin Commands
@@ -48,28 +49,30 @@ These commands require the Manage Server (`MANAGE_GUILD`) permission.
 
 | Command | Description | Guide |
 | ------- |:-----------:| -----:|
-| blacklist | Blacklist a user from all bot commands in the guild | [click](#blacklist-command) |
+| blacklist | Blacklist a user from all bot commands in the server | [click](#blacklist-command) |
 | config | View and update various configuration settings of the bot | [click](#config-command) |
 
 ## Command Information
 
 ### Approve Command
 ```
-,approve <sID> [response]
+,approve <sID|message ID> [response]
 ```
-Approve a submitted suggestion via the suggestion ID (sID) with an optional response.
+Approve a submitted suggestion via its suggestion ID (sID) or message ID with an optional response.
+
+Aliases: `accept`
 
 ### Blacklist Command
 ```
 ,blacklist add/remove <user> [reason]
 ```
-Add or remove a user from the bot blacklist (guild-only). This means the user cannot interact with any bot commands.
+Add or remove a user from the bot blacklist (server-only). This means the user can't interact with any bot commands.
 
 ### Changelog Command
 ```
 ,changelog
 ```
-The changelog command displays the information for the most recent changelog. Also included is an invite to the [Support Discord](https://discord.gg/ntXkRan) where you can view all previous changelogs.
+The changelog command displays the information for the most recent changelog. Also, there's an invite to the [Support Discord](https://discord.gg/ntXkRan) included, where you can view all previous changelogs.
 
 Aliases: `changes, updates, changelogs`
 
@@ -77,7 +80,7 @@ Aliases: `changes, updates, changelogs`
 ```
 ,config [setting] [value]
 ```
-View and update various configuration settings of the bot. You can check a specific setting by doing `,config [setting]` and update a specific setting by doing `,config [setting] [value]`.
+View and update various configuration settings of the bot. You can check a specific setting by running `,config [setting]` and update a specific setting by running `,config [setting] [value]`.
 
 Aliases: `conf, settings`
 
@@ -89,9 +92,10 @@ This command sends a message of the current suggestions channel. If no suggestio
 
 ### Help Command
 ```
-,help
+,help [command]
 ```
-The help command displays all commands (commands will display based on permissions of the user) and additonal information dislaying current prefix, suggestions channel, bug reports links and the link to this documentation.
+The help command displays all commands (commands will display based on permissions of the user) and additonal information: current prefix, suggestions channel, a link to the website, a link to the GitHub page, and a link to the support server.  
+If you type a command aliase after `help`, the bot will display help information on the relevant command.
 
 Aliases: `h, halp`
 
@@ -99,7 +103,7 @@ Aliases: `h, halp`
 ```
 ,info
 ```
-The info command displays the bot author, bot description, the link to this documenation and the [Support Discord](https://discord.gg/ntXkRan). Some of the most important information is found here.
+The info command displays the bot author, bot description, links to the website, the [Support Discord](https://discord.gg/ntXkRan) and the Github page, and the bot version. Some of the most important information is found here.
 
 Aliases: `botinfo`
 
@@ -107,19 +111,19 @@ Aliases: `botinfo`
 ```
 ,invite
 ```
-The invite command sends the user a DM with the bot invite link as well as the link to this documenation and the [Support Discord](https://discord.gg/ntXkRan).
+The invite command sends the user a DM with the bot invite link as well aslinks to the bot website, the [Support Discord](https://discord.gg/ntXkRan), and the GitHub page.
 
 ### Note Command
 ```
-,note <sID> <note>
+,note <sID|message ID> <note>
 ```
-Add a new note to a submitted suggestion.
+Add a new note to a submitted suggestion via its suggestion ID (sID) or message ID.
 
 ### Patrons Command
 ```
 ,patrons
 ```
-View a list of all current Patrons who support Nerd Cave Development. These people, pledges big or small, are much appreciated and lets the developers know good is being done.
+View a list of all current Patrons who support Nerd Cave Development. These people, pledges big or small, are much appreciated and let the developers know good is being done.
 
 ### Ping Command
 ```
@@ -133,21 +137,23 @@ Aliases: `pong`
 ```
 ,prefix
 ```
-This command sends a message of the current guild prefix. If no prefix is set, it displays the default prefix.
+This command sends a message of the current server prefix. If no prefix is set, it displays the default prefix.
 
 *Forgot the prefix? Simply mention the bot (`@Suggestions#2602`) and it'll tell you the current prefix!*
 
 ### Reject Command
 ```
-,reject <sID> [response]
+,reject <sID|message ID> [response]
 ```
-Reject a submitted suggestion via the suggestion ID (sID) with an optional reponse. A response is only required if DM responses are to `true` (check the [config](#config-command) command).
+Reject a submitted suggestion via its suggestion ID (sID) or message ID with an optional reponse. A response is only required if DM responses are set to `true`. (Check the [config](#config-command) command.)
+
+Aliases: `deny`
 
 ### Server Info Command
 ```
 ,serverinfo
 ```
-Display guild information regarding the bot.
+Display server information regarding the bot.
 
 Aliases: `guildinfo`
 
@@ -167,13 +173,13 @@ Submit a new suggestion for staff members to vote. These suggestions go in the s
 ```
 ,stats
 ```
-The stats command displays information regarding how many guilds the bot is in, it's uptime, bot version, discord.js version, etc. Check here if you're a geek or just want to see how many guilds the bot is in.
+The stats command displays information regarding how many servers the bot is in, its uptime, bot version, discord.js version, etc. Check here if you're a geek or just want to see how many servers the bot is in.
 
 ### Suggest Command
 ```
 ,suggest <suggestion>
 ```
-This command will allow the user to submit a new suggestion that will be sent to the set suggestions channel in the guild (by default the bot searches for a `#suggestions` channel if it's set).
+This command will allow the user to submit a new suggestion that will be sent to the set suggestions channel in the server. (By default the bot searches for a `#suggestions` channel if it's set.)
 
 Cooldown: `3 uses per minute`
 
@@ -181,10 +187,10 @@ Cooldown: `3 uses per minute`
 ```
 ,suggestions [@User]
 ```
-View your own suggestions data or another user's data in this guild. This includes a user's total submitted suggestions, total approved and total rejected.
+View your own suggestions data or another user's data in the server. This includes a user's total submitted suggestions, total approved and total rejected.
 
 ### Vote Command
 ```
 ,vote
 ```
-This command will display each link for Discord bot voting lists the bot is present on.
+This command will display links to Discord bot voting lists the bot is present on.
