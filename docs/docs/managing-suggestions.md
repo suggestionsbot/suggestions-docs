@@ -83,20 +83,20 @@ Since September 29, 2018, you've had the ability to choose from a predefined lis
 
 ![The available emoji sets.](/images/managing-suggestions-7.png)
 
-To change to any of these options, you can simply do `config emojis <#>`\(ex. `config emojis 3`\)*. The number is in front of each emoji set. Upon changing, any future suggestions will use that emoji set, as shown below:
+To change to any of these options, you can simply run `config emojis <#>`\(e.g. `config emojis 3`\)*. The number is in front of each emoji set. Upon changing, any future suggestions will use that emoji set, as shown below:
 
 ![An example of one of the emoji sets.](/images/managing-suggestions-8.png)
 
-**User must have the `MANAGE_GUILD` permission to use this command.*
+**User must be an admin to use this command.*
 
 ## Suggestion Notes
 
-A newly introduced feature as of December 2, 2018, you have the ability to add notes to a submitted suggestion. Notes can be used to not only notify the submitter of a suggestion about a change or improvement, but also notify the community as well.
+Since December 2, 2018, you've had the ability to add notes to a submitted suggestion. Notes can be used to not only notify the submitter of a suggestion about a change or improvement but also notify the community as well.
 
 ![An example of a suggestion note](/images/managing-suggestions-9.png)
 
-To add a note to a suggestion, simply retrieve the sID and do `note <sID> <note>` where the `note` can be any message you wish to choose. Upon adding a note, the submitter of the suggestion will receive a DM with that information:
+To add a note to a suggestion, simply retrieve the sID and do `note <sID> <note>`, where the `note` can be any message you wish to choose. Upon adding a note, the submitter of the suggestion will receive a DM with that information:
 
 ![An example of a suggestion note in DM](/images/managing-suggestions-10.png)
 
-A new note can be added and it'll override the current note on the suggestion. However, all previous notes are saved and will be accessible in the future (TBD).
+A new note can be added, and it'll override the current note on the suggestion. However, all previous notes are saved and will be accessible in the future (TBD).
