@@ -12,7 +12,7 @@ meta:
 _**Key:**_  
 `< >` = Required  
 `[ ]` = Optional  
-`|` = Means "or"
+`|` = Means "or"  
 `bot` = Refers to the Suggestions bot  
 
 ## General Commands
