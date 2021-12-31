@@ -11,12 +11,12 @@ meta:
 
 ::: warning
 This feature doesn't mirror the regular user suggestions. This means there's no logging, a unique sID for each suggestion, or a way to manage a staff suggestion by using its message ID. It's a lightweight feature that allows staff members to vote on matters internally with zero interference of the user suggestions feature.
- However, it'll be possible to manage staff suggestions when the next version of the bot is released.
+However, it'll be possible to manage staff suggestions when the next version of the bot is released.
 :::
 
 ## Setting Things Up
 
-This feature is something that makes the bot unique, versatile, and prevents server owners from having to get a second bot to deal with matters like this. And getting a second bot for the same feature used in a different way is not always practical. That's why this bot has the feature for staff members to submit suggestions to be voted on and dealt with internally.
+This feature makes the bot unique, versatile, and prevents server owners from having to get a second bot to deal with matters like this. And getting a second bot for the same feature used in a different way is not always practical. That's why this bot has the feature for staff members to submit suggestions to be voted on and dealt with internally.
 
 Remember the suggestions role you created back at the [Getting Started](README.md) section? Well it comes to use here as well! This is because users with that role can not only manage suggestions, but they can submit suggestions internally! The setup mirrors the initial suggestions channel setup process:
 
