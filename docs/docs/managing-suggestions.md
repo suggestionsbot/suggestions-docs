@@ -27,7 +27,7 @@ Managing suggestions is simple. Each suggestion is assigned a **Suggestion ID** 
 Alternatively, you can use the message ID of the suggestion message to manage a suggestion, especially if you're using the bot on mobile. Click [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) to check out a tutorial on how to find a message ID.
 
 ## DM Responses
-DM responses are sent to the suggestion submitter based on various actions. DM responses may be toggled by running `config dmResponses <true/false>`. This means DMs to the suggestion sumbitter will or won't not be sent via these actions based on how you configure the bot for your server:
+DM responses are sent to the suggestion submitter based on various actions. DM responses may be toggled by running `config dmResponses <true/false>`. This means DMs to the suggestion sumbitter will or won't be sent via these actions based on how you configure the bot for your server:
 
 - suggestion submitted
 - suggestion approved
