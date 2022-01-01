@@ -12,6 +12,10 @@ meta:
 _**Key:**_  
 `< >` = Required  
 `[ ]` = Optional  
+
+**Note:** Although you're not supposed to type these placeholders, if you type them when running a command, the bot will ignore them.
+
+`|` = Means "or"  
 `bot` = Refers to the Suggestions bot  
 `administrator` = Refers to a user with the Manage Server `(MANAGE_GUILD)` permission  
 `emoji set` = Refers to the reactions added to suggestions  
