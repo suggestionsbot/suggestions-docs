@@ -13,7 +13,7 @@ _**Key:**_
 `< >` = Required  
 `[ ]` = Optional  
 
-**Note:** Although you're not supposed to type these placeholders, you can type them when running a command and the bot will ignore them.
+**Note:** Although you're not supposed to type these placeholders, if you type them when running a command, the bot will ignore them.
 
 `|` = Means "or"  
 `administrator` = A user with the Manage Server (`MANAGE_GUILD`) permission
