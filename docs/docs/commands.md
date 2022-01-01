@@ -123,7 +123,7 @@ Add a new note to a submitted suggestion via its suggestion ID (sID) or message 
 ```
 ,patrons
 ```
-View a list of all current Patrons who support Nerd Cave Development. These people, pledges big or small, are much appreciated and let the developers know good is being done.
+View a list of all current Patrons who support Nerd Cave Development. These people, pledge big or small, are much appreciated and let the developers know good is being done.
 
 ### Ping Command
 ```
