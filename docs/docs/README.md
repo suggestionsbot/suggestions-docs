@@ -28,27 +28,19 @@ Also by default, the prefix is `,` and the bot searches for `#suggestions` as th
 
 1. Create and set a suggestions channel by running `config channel <channel>`. (You can tag the channel.)
 
-
    a) Add the bot to that channel's permissions and exclusively give it the `SEND MESSAGES` and `ADD REACTIONS` permissions. (Add anymore depending on what permissions you gave the bot globally.)
-
 
    b) Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean and that users only vote with the configured emoji set (e.g. the ✅ and ❌ emojis).
 
-
 2. Create and set a suggestions log channel by running `config logs <channel>`. (You can tag the channel.)
-
 
    a) Add the bot to that channel's permissions and exclusively give it the `SEND MESSAGES` permission. (Add anymore depending on what permissions you gave the bot globally.)
 
-
    b) Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean.
-
 
 3. Add a staff role so the users who have it can approve/reject user suggestions. You may do that with `config roles <role>`, where the role can either be tagged or be typed out if it exists in the server.
 
-
 4. Choose an emoji set for your server. You can view the available sets via the `config emojis` command and choose which one you want in your server with `config emojis <#>`, where `#` indicates which emoji option.
-
 
 *Steps 2 and 3 are only required if you'll be managing suggestions using the `approve` and `reject` commands.*
 
