@@ -28,6 +28,6 @@ Remember the staff role you created back at the [Getting Started](README.md) sec
 
 2. Assign designated individuals the set staff role that you made earlier. (Only users with this role can submit staff suggestions!)
 
-4. Run `staffsuggest` to submit a new staff suggestion.
+3. Run `staffsuggest` to submit a new staff suggestion.
 
 Once this is all setup, your staff members should be good to go and vote!
