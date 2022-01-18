@@ -40,7 +40,7 @@ These commands require a staff role or the Manage Server (`MANAGE_GUILD`) permis
 | approve | Approve a submitted suggestion | [click](#approve-command) |
 | note | Add a note to a submitted suggestion | [click](#note-command) |
 | reject | Reject a submitted suggestion | [click](#reject-command) | 
-| staffsuggest | Submit a staff suggestion to be viewed by staff only | [click](#staff-suggest-command) |
+| staffsuggest | Submit a staff suggestion to be viewed by staff-only | [click](#staff-suggest-command) |
 
 
 ## Admin Commands
