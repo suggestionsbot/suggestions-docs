@@ -102,7 +102,7 @@ Aliases: `h, halp`
 ```
 ,info
 ```
-The info command displays the bot author, bot description, links to the website, the [Support Discord](https://discord.gg/ntXkRan) and the Github page, and the bot version. Some of the most important information is found here.
+The info command displays the bot author, bot description, links to the website, the [Support Discord](https://discord.gg/ntXkRan) and the [GitHub page](https://github.com/suggestionsbot/suggestions-bot), and the bot version. Some of the most important information is found here.
 
 Aliases: `botinfo`
 
@@ -110,7 +110,7 @@ Aliases: `botinfo`
 ```
 ,invite
 ```
-The invite command sends the user a DM with the bot invite link as well aslinks to the bot website, the [Support Discord](https://discord.gg/ntXkRan), and the GitHub page.
+The invite command sends the user a DM with the bot invite link as well as links to the bot website, the [Support Discord](https://discord.gg/ntXkRan), and the [GitHub page](https://github.com/suggestionsbot/suggestions-bot).
 
 ### Note Command
 ```
