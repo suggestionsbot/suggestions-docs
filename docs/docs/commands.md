@@ -23,7 +23,6 @@ _**Key:**_
 | help      | View bot commands and where to receive support      |   [click](#help-command) |
 | info | View bot information      |    [click](#info-command) |
 | invite | Receive a DM with information on inviting the bot to your server | [click](#invite-command) | 
-| patrons | View all Patrons who've pledged to Nerd Cave Development | [click](#patrons-command) |
 | ping | View the latency of the bot and API | [click](#ping-command) | 
 | prefix | View the current prefix in the server | [click](#prefix-command) |
 | serverinfo | Display server information regarding the bot | [click](#server-info-command) |
@@ -118,12 +117,6 @@ The invite command sends the user a DM with the bot invite link as well aslinks 
 ,note <sID|message ID> <note>
 ```
 Add a new note to a submitted suggestion via its suggestion ID (sID) or message ID.
-
-### Patrons Command
-```
-,patrons
-```
-View a list of all current Patrons who support Nerd Cave Development. These people, pledge big or small, are much appreciated and let the developers know good is being done.
 
 ### Ping Command
 ```
