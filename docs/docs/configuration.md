@@ -41,7 +41,7 @@ The bot's mention can also be used as a command prefix.
 ## Suggestions Channel
 Usage: `config channel` or `config channel [channel]`
 
-You can either view or set the channel where suggestions will be posted. Channels that doesn't exist in the server can't be set. The options to pass through when setting the channel can be:
+You can either view or set the channel where suggestions will be posted. Channels that don't exist in the server can't be set. The options to pass through when setting the channel can be:
 
 - the channel mention - `#suggestions`
 - the channel name - `suggestions`
@@ -64,7 +64,7 @@ Read more about staff suggestions via the [Staff Suggestions](staff-suggestions.
 ## Staff Roles
 Usage: `config roles` or `config roles [role]`
 
-You can either view or set the various staff roles that are used for managing suggestions as well as submitting staff suggestions. Roles that doesn't exist in the server can't be set. The options to pass through when adding/removing a staff role can be:
+You can either view or set the various staff roles that are used for managing suggestions as well as submitting staff suggestions. Roles that don't exist in the server can't be set. The options to pass through when adding/removing a staff role can be:
 
 - the role mention - `@Da Nerds`
 - the role name - `Da Nerds`
