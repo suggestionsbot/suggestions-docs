@@ -94,7 +94,7 @@ This command sends a message of the current suggestions channel. If no suggestio
 ,help [command]
 ```
 The help command displays all commands (commands will display based on permissions of the user) and additonal information: current prefix, suggestions channel, a link to the website, a link to the GitHub page, and a link to the support server.  
-If you type a command aliase after `help`, the bot will display help information on the relevant command.
+If you type a command alias after `help`, the bot will display help information on the relevant command.
 
 Aliases: `h, halp`
 
