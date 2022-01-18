@@ -41,7 +41,7 @@ The bot's mention can also be used as a command prefix.
 ## Suggestions Channel
 Usage: `config channel` or `config channel [channel]`
 
-You can either view or set the channel where suggestions will be posted. Invalid channels can't be set. The options to pass through when setting the channel can be:
+You can either view or set the channel where suggestions will be posted. Channels that doesn't exist in the server can't be set. The options to pass through when setting the channel can be:
 
 - the channel mention - `#suggestions`
 - the channel name - `suggestions`
@@ -50,12 +50,12 @@ You can either view or set the channel where suggestions will be posted. Invalid
 ## Suggestions Logs Channel
 Usage: `config logs` or `config logs [channel]`
 
-You can either view or set the channel where suggestion results will be posted after a suggestion is approved or denied. The options to pass through follow the same as setting the [Suggestions Channel](#suggestions-channel). Keep in mind you can't set a channel that doesn't exist.
+You can either view or set the channel where suggestion results will be posted after a suggestion is approved or denied. The options to pass through follow the same as setting the [Suggestions Channel](#suggestions-channel). Keep in mind you can't set a channel that doesn't exist in the server.
 
 ## Staff Suggestions Channel
 Usage: `config staffchannel` or `config staffchannel [channel]`
 
-You can either view or set the channel where staff suggestions will be posted. The options to pass through follow the same as setting the [Suggestions Channel](#suggestions-channel). Keep in mind you can't set a channel that doesn't exist.
+You can either view or set the channel where staff suggestions will be posted. The options to pass through follow the same as setting the [Suggestions Channel](#suggestions-channel). Keep in mind you can't set a channel that doesn't exist in the server.
 
 Users can only have suggestions posted to the staff suggestions channel through the `staffsuggest` command. A user has access to this command if they're an admin or they're a member of one of the set staff roles. (Refer to the [Staff Roles](#staff-roles) section.)'
 
@@ -64,7 +64,7 @@ Read more about staff suggestions via the [Staff Suggestions](staff-suggestions.
 ## Staff Roles
 Usage: `config roles` or `config roles [role]`
 
-You can either view or set the various staff roles that are used for managing suggestions as well as submitting staff suggestions. Invalid roles can't be set. The options to pass through when adding/removing a staff role can be:
+You can either view or set the various staff roles that are used for managing suggestions as well as submitting staff suggestions. Roles that doesn't exist in the server can't be set. The options to pass through when adding/removing a staff role can be:
 
 - the role mention - `@Da Nerds`
 - the role name - `Da Nerds`
