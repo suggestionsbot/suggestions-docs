@@ -10,10 +10,10 @@ meta:
 # Statistics
 
 ::: tip
-Logging of approved/rejected status of suggestions began on September 29, 2018. Any data before that *specifically* regarding the status of a suggestion is not logged. However, suggestion data in general, in the new database, has been logged. This explains the gap between approved/rejected suggestions and the total number of suggestions in your guild if you have had this bot in your guild prior to the date above.
+Logging of approved and rejected statuses of suggestions began on September 29, 2018. Any data *specifically* regarding the status of a suggestion before that date isn't logged. However, suggestion data in general, in the new database, was logged. This explains the gap between approved/rejected suggestions and the total number of suggestions in your server if you'd had this bot in your server prior to the date above.
 :::
 
-There are a few different commands you can use to get the statistics of suggestions in your guild:
+There are a few different commands you can use to get the statistics of suggestions in your server:
 
 * `suggestions`
 * `sid`
@@ -21,7 +21,7 @@ There are a few different commands you can use to get the statistics of suggesti
 
 ## Suggestions Command
 
-The `suggestions` command allows you to view suggestions information of a specific user. Either being your own statistics (`suggestions`) or the statistics of another user `suggestions <@User>` (read the message above).
+The `suggestions` command allows you to view suggestions information of a specific user. You can see either your own statistics (`suggestions`) or the statistics of another user `suggestions <@User>`. (Read the message above.)
 
 ![An example of a user's suggestions stats](/images/statistics-1.png)
 
@@ -37,8 +37,8 @@ Similar to when a suggestion is approved or rejected, the message embed will cha
 
 ## Server Info Command
 
-The `serverinfo` command allows you to view overall statistics for the Suggestions bot in the guild. Here you can see the total number of suggestions, total approved and rejected suggestions as well as the sID for the last submitted suggestion.
+The `serverinfo` command allows you to view overall statistics for the Suggestions bot in the server. Here you can see the total number of suggestions, the total of approved and rejected suggestions, as well as the sID for the last submitted suggestion.
 
 ![Information of a guild's suggestions stats](/images/statistics-4.png)
 
-This is not where it stops! There will be more ways in the future to view even more information for suggestions. Both for users and staff members.
+This is not where it stops! There will be more ways in the future to view even more information for suggestions, both for regular and staff members.
