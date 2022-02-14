@@ -122,10 +122,15 @@ When disabling DM responses, the bot won't DM the user on these actions:
 ## Keep Logs
 Usage: `config keepLogs` or `config keepLogs [true|false]`
 
-You can either view if logs are kept when a suggestion is approved/rejected or enable/disable the feature if you wish.
+You can either view if the suggestion message stays when approved/rejected or enable/disable the feature if you wish.
 
 When enabling this feature, a number of things will happen (in this order) after the suggestion is approved/rejected:
 
 1) The suggestion message will be updated with its status and result
 2) The reactions will be removed from the message
 3) The submitter (if DM responses are enabled) will be DMed that their suggestion has been processed
+
+By default, this feature is disabled. However, one of the two will happen, dependent on if you have a [suggestion logs channel](#suggestions-logs-channel) set or not.
+
+1) If you have a suggestion logs channel, the normal process of deleting the original message and the results posted in the logs channel will occur.
+2) If you don't have a suggestion logs channel, then the process of having `keepLogs` enabled will take place.
