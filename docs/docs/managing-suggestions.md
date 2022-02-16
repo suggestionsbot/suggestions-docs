@@ -72,8 +72,6 @@ When a suggestion is approved or rejected, one of two things will happen, depend
 - If you have no suggestion logs channel set or `config keepLogs` is true, then the suggestion message will be updated with its results and the reactions removed.
 - If you have a suggestion logs channel set and `config keepLogs` is false, the bot will delete the original suggestion message and its results will be posted to the set logs channel. You'll find the following information in the log message either way:
 
-If you wish to set up a suggestion logs channel, you may refer to the [Getting Started](README.md#setting-up-the-bot) section of the documentation.
-
 * the results (both upvotes and downvotes)
 * the suggestion
 * the submitter
@@ -82,6 +80,8 @@ If you wish to set up a suggestion logs channel, you may refer to the [Getting S
 * the response (if one was given)
 
 ![Suggestion Results](/images/managing-suggestions-6.png)
+
+If you wish to set up a suggestion logs channel, you may refer to the [Getting Started](README.md#setting-up-the-bot) section of the documentation.
 
 ## Suggestions Emojis
 
