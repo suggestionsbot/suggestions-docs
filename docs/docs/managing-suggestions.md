@@ -46,7 +46,7 @@ Suggestions are approved via the sID. Once you have it, run the command `approve
 
 * The suggestion will update as "Approved" in the suggestions channel and its results will be logged.
 * The user will receive a DM that you approved their suggestion.
-* The results of that suggestion will either be posted to the suggestion logs channel or the suggestion message will be kept with its results displayed. (dependent on [`config keepLogs`](configuration.md#keep-logs))
+* The results of that suggestion will either be posted to the suggestion logs channel or be kept in the suggestion message. (dependent on [`config keepLogs`](configuration.md#keep-logs))
 * _An optional response can be added by running_ `approve <sID|message ID> [response]`.
 
 ![Suggestion Approved Status](/images/managing-suggestions-3.png)
@@ -70,7 +70,7 @@ If responses are set to `true` via the usage of the [setresponses](commands.md#s
 When a suggestion is approved or rejected, one of two things will happen, depending on if you have a suggestions logs channel set and if [`config keepLogs`](configuration.md#keep-logs) is enabled (by default, it's `false`).
 
 - If you have no suggestion logs channel set or `config keepLogs` is true, then the suggestion message will be updated with its results and the reactions removed.
-- If you have a suggestion logs channel set and `config keepLogs` is false, The bot will delete the original suggestion message and its results posted to the set logs channel. You'll find the following information in the log message either way:
+- If you have a suggestion logs channel set and `config keepLogs` is false, the bot will delete the original suggestion message and its results will be posted to the set logs channel. You'll find the following information in the log message either way:
 
 If you wish to set up a suggestion logs channel, you may refer to the [Getting Started](README.md#setting-up-the-bot) section of the documentation.
 

@@ -126,9 +126,9 @@ You can either view if the suggestion message stays when approved/rejected or en
 
 When enabling this feature, a number of things will happen (in this order) after the suggestion is approved/rejected:
 
-1) The suggestion message will be updated with its status and result
-2) The reactions will be removed from the message
-3) The submitter (if DM responses are enabled) will be DMed that their suggestion has been processed
+1) The suggestion message will be updated with its status and result.
+2) The reactions will be removed from the message.
+3) The submitter (if DM responses are enabled) will be DMed that their suggestion has been processed.
 
 By default, this feature is disabled. However, one of the two will happen, dependent on if you have a [suggestion logs channel](#suggestions-logs-channel) set or not.
 
