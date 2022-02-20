@@ -32,16 +32,12 @@ Also by default, the prefix is `,` and the bot searches for `#suggestions` as th
 
    b) Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean and that users only vote with the configured emoji set (e.g. the ✅ and ❌ emojis).
 
-2. Create and set a suggestions log channel by running `config logs <channel>`. (You can tag the channel.)
+2. Add a staff role so the users who have it can approve/reject user suggestions. You may do that with `config roles <role>`, where the role can either be tagged or be typed out if it exists in the server.
 
-   a) Add the bot to that channel's permissions and exclusively give it the `SEND MESSAGES` permission. (Add anymore depending on what permissions you gave the bot globally.)
+3. Choose an emoji set for your server. You can view the available sets via the `config emojis` command and choose which one you want in your server with `config emojis <#>`, where `#` indicates which emoji option.
 
-   b) Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean.
+*- Step 2 is only required if you'll be managing suggestions using the `approve` and `reject` commands.*
 
-3. Add a staff role so the users who have it can approve/reject user suggestions. You may do that with `config roles <role>`, where the role can either be tagged or be typed out if it exists in the server.
-
-4. Choose an emoji set for your server. You can view the available sets via the `config emojis` command and choose which one you want in your server with `config emojis <#>`, where `#` indicates which emoji option.
-
-*Steps 2 and 3 are only required if you'll be managing suggestions using the `approve` and `reject` commands.*
+*- If you wish to use a separate channel for posting suggestion results, check out [this section](managing-suggestions.md#suggestions-logging).*
 
 Once you completed those steps, you should be set to go! Click "Managing Suggestions" on the left or down below for more information on approving/rejecting user suggestions.

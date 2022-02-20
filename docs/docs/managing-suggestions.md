@@ -44,9 +44,9 @@ If you haven't already done so, please refer to the [Getting Started](README.md#
 
 Suggestions are approved via the sID. Once you have it, run the command `approve <sID|message ID>`. Afterward, series of actions will happen:
 
-* The suggestion will update as "Approved" in the suggestions channel and shortly delete itself afterward.
+* The suggestion will update as "Approved" in the suggestions channel and its results will be logged.
 * The user will receive a DM that you approved their suggestion.
-* The results of that suggestion will be logged in the suggestions logs channel.
+* The results of that suggestion will either be posted to the suggestion logs channel or the suggestion message will be kept with its results displayed. (dependent on [`config keepLogs`](configuration.md#keep-logs))
 * _An optional response can be added by running_ `approve <sID|message ID> [response]`.
 
 ![Suggestion Approved Status](/images/managing-suggestions-3.png)
@@ -67,7 +67,10 @@ If responses are set to `true` via the usage of the [setresponses](commands.md#s
 
 ## Suggestions Logging
 
-When a suggestion is approved or rejected, its results are logged to the suggestions logs channel. If you have not set one up yet, refer to the [Getting Started](README.md#setting-up-the-bot) section. In the logs channel, you'll find this information for each result:
+When a suggestion is approved or rejected, one of two things will happen, depending on if you have a suggestions logs channel set and if [`config keepLogs`](configuration.md#keep-logs) is enabled (by default, it's `false`).
+
+- If you have no suggestion logs channel set or `config keepLogs` is true, then the suggestion message will be updated with its results and the reactions removed.
+- If you have a suggestion logs channel set and `config keepLogs` is false, The bot will delete the original suggestion message and its results posted to the set logs channel. You'll find the following information in the log message either way:
 
 * the results (both upvotes and downvotes)
 * the suggestion
@@ -77,6 +80,12 @@ When a suggestion is approved or rejected, its results are logged to the suggest
 * the response (if one was given)
 
 ![Suggestion Results](/images/managing-suggestions-6.png)
+
+If you wish to set up the suggestion logs channel, you may refer to the steps below:
+
+1) Add the bot to the suggestion channel's permissions and exclusively give it the `SEND MESSAGES` permission.
+   - Add any more depending on what permissions you gave the bot globally.
+2) Disable `SEND MESSAGES` and `ADD REACTIONS` for `@everyone` to keep the channel clean.
 
 ## Suggestions Emojis
 
